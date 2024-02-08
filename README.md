@@ -1,4 +1,3 @@
-Sure, here's the updated README file for your Django CRM app repository:
 
 ---
 
@@ -22,7 +21,18 @@ pip install -r requirements.txt
 ```
 
 ### 3. Database Configuration
-Set up the MySQL database according to the instructions provided.
+#### MySQL Configuration
+- Install MySQL if not already installed on your system.
+- Create a MySQL database for the CRM app.
+- Update the database settings in `DCRM/settings.py` with your MySQL database credentials.
+
+#### Sample Database Configuration (MySQL)
+```sql
+CREATE DATABASE dcrm_db;
+CREATE USER 'dcrm_user'@'localhost' IDENTIFIED BY 'your_password';
+GRANT ALL PRIVILEGES ON dcrm_db.* TO 'dcrm_user'@'localhost';
+FLUSH PRIVILEGES;
+```
 
 ### 4. Configure Django Settings
 Update the database settings in `DCRM/settings.py` to connect to your MySQL database.
@@ -59,3 +69,4 @@ Once the setup is complete, you can use the CRM app to perform various tasks rel
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 --- 
+
