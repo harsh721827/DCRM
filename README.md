@@ -1,19 +1,23 @@
-# Django CRM App
+Sure, here's the updated README file for your Django CRM app repository:
+
+---
+
+# DCRM - Django CRM App
 
 ## Description
-This is a Django-based customer relationship management (CRM) app developed to demonstrate how to build a fully-functional CRM application using Django, Python, and MySQL.
+DCRM is a Django-based customer relationship management (CRM) app developed to demonstrate how to build a fully-functional CRM application using Django, Python, and MySQL.
 
 ## Setup
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/django-crm-app.git
+git clone https://github.com/harsh721827/DCRM.git
 ```
 
 ### 2. Install Dependencies
 Navigate to the project directory and install the required dependencies using pip:
 ```bash
-cd django-crm-app
+cd DCRM
 pip install -r requirements.txt
 ```
 
@@ -21,7 +25,7 @@ pip install -r requirements.txt
 Set up the MySQL database according to the instructions provided.
 
 ### 4. Configure Django Settings
-Update the database settings in `settings.py` to connect to your MySQL database.
+Update the database settings in `DCRM/settings.py` to connect to your MySQL database.
 
 ### 5. Run Migrations
 Run the Django migrations to create the necessary database tables:
@@ -53,3 +57,5 @@ Once the setup is complete, you can use the CRM app to perform various tasks rel
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+--- 
